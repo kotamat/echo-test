@@ -1,0 +1,7 @@
+package: github.com/kotamat/echo-test
+import:
+- package: github.com/dgrijalva/jwt-go
+- package: github.com/labstack/echo
+  subpackages:
+  - middleware
+- package: github.com/pkg/errors
